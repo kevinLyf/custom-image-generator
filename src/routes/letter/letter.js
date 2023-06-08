@@ -11,7 +11,7 @@ ctx.textAlign = 'center';
 
 export default router.get("/letter/:text", (req,  res) => {
     let { text } = req.params;
-    text = text.replace("  ", "\n");
+    text = text.replaceAll("  ", "\n");
     
     loadImage("./src/routes/letter/templates/letter.png").then((image) => {
         ctx.drawImage(image, image.width / 1080, image.height / 1080);
@@ -40,7 +40,7 @@ export default router.get("/letter/:text", (req,  res) => {
                 }
 
                 main {
-                    width: 1080px;
+                    width: 100%;
                     height: 100%;
                     max-width: 100%;
 
