@@ -6,17 +6,19 @@ const canvas = createCanvas(1080, 1080);
 const ctx = canvas.getContext('2d');
 
 ctx.font = '42px Poppins';
-ctx.fillStyle = '#E06469';
+ctx.fillStyle = '#000';
 ctx.textAlign = 'center';
 
-export default router.get("/letter/:text", (req, res) => {
-    let { text } = req.params;
-    text = text.replaceAll("  ", "\n");
-    
-    loadImage("./src/routes/letter/templates/letter.png").then((image) => {
-        ctx.drawImage(image, image.width / 1080, image.height / 1080);
-        ctx.fillText(text, 540, 450, 800);
+export default router.get("/meme/:title/:subtitle", (req, res) => {
+    let { title, subtitle } = req.params;
+    title = title.replaceAll("  ", "\n");
+    subtitle = subtitle.replaceAll("  ", "\n");
 
+    
+    loadImage("./src/routes/meme/templates/meme.jpg").then((image) => {
+        ctx.drawImage(image, image.width / 1080, image.height / 1080);
+        ctx.fillText(title, 840, 250, 460);
+        ctx.fillText(subtitle, 840, 850, 460);
         res.status(200).send(`
         <html>
             <style>
@@ -112,7 +114,7 @@ export default router.get("/letter/:text", (req, res) => {
                 <div>
                     <img class="post" src="${canvas.toDataURL()}"></img>
                 </div>
-                <a href="${canvas.toDataURL()}" download="lover-letter">Download</a>
+                <a href="${canvas.toDataURL()}" download="drake-meme">Download</a>
             </main>
             </body>
         </html>
