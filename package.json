@@ -1,0 +1,24 @@
+{
+  "name": "autopost",
+  "version": "1.0.0",
+  "description": "Auto post creator.",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Ferreira Feitosa",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
