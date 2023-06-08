@@ -1,10 +1,10 @@
-<h1 align="center">Auto Post</h1>
+<h1 align="center">Auto Post <p>🚧 UNDER CONSTRUCTION 🚧</p></h1>
 
 ![autopost](/public/images/example.png)
 
 ## 💻 Description
 
-<p>Custom Image Generator/p>
+<p>Custom Image Generator</p>
 
 ## 📌 Technologies Used
 
