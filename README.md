@@ -8,7 +8,8 @@
 
 ## 📌 Technologies Used
 
--   Express: version: 4.18.2
+-   Node, version: 20.2.0
+-   Express, version: 4.18.2
 -   Cors, version: 2.8.5
 -   Canvas, version: 2.11.2
 -   Dotenv, version: 16.1.4
