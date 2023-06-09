@@ -22,7 +22,7 @@
     ```
 2. Next you will enter the directory:
     ```
-      cd autopost
+      cd custom-image-generator
     ```
 3. The next step is to install the dependencies:
     ```
