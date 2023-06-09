@@ -1,4 +1,4 @@
-<h1 align="center">Auto Post <p>🚧 UNDER CONSTRUCTION 🚧</p></h1>
+<h1 align="center">Custom Image Generator <p>🚧 UNDER CONSTRUCTION 🚧</p></h1>
 
 ![autopost](/public/images/example.png)
 
