@@ -18,20 +18,20 @@
 
 1. In this first part you will clone the repository:
     ```
-      git clone git@github.com:kevinLyf/autopost.git
+    git clone git@github.com:kevinLyf/autopost.git
     ```
 2. Next you will enter the directory:
     ```
-      cd custom-image-generator
+    cd custom-image-generator
     ```
 3. The next step is to install the dependencies:
     ```
-      npm i
+    npm i
     ```
 
 4. Run an application for development mode:
     ```
-      npm run dev
+    npm run dev
     ```
 
 ## 🧑‍🚀🚀 Contribution
